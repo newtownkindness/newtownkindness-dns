@@ -1,0 +1,37 @@
+$ORIGIN newtownkindness.org.
+$TTL 1h
+newtownkindness.org. 3600 IN SOA ns1.dnsimple.com. admin.dnsimple.com. 1418447475 86400 7200 604800 300
+newtownkindness.org. 3600 IN NS ns4.dnsimple.com.
+newtownkindness.org. 3600 IN NS ns2.dnsimple.com.
+newtownkindness.org. 3600 IN NS ns3.dnsimple.com.
+newtownkindness.org. 3600 IN NS ns1.dnsimple.com.
+newtownkindness.org. 3600 IN NS ns1a.dnsimple.com.
+newtownkindness.org. 3600 IN NS ns2a.dnsimple.com.
+newtownkindness.org. 3600 IN NS ns3a.dnsimple.com.
+newtownkindness.org. 3600 IN NS ns4a.dnsimple.com.
+mail.newtownkindness.org. 3600 IN CNAME ghs.googlehosted.com.
+www.newtownkindness.org. 3600 IN CNAME newtownkindness.org.
+newtownkindness.org. 3600 IN TXT google-site-verification=RAYuAilCJTOkDLFVang4MAvRIRN4yxQ0xbtvlbmjtfc
+newtownkindness.org. 3600 IN MX 1 aspmx.l.google.com.
+newtownkindness.org. 3600 IN MX 5 alt1.aspmx.l.google.com.
+newtownkindness.org. 3600 IN MX 5 alt2.aspmx.l.google.com.
+newtownkindness.org. 3600 IN MX 10 aspmx2.googlemail.com.
+newtownkindness.org. 3600 IN MX 10 aspmx3.googlemail.com.
+newtownkindness.org. 3600 IN A 67.222.35.79
+newtownkindness.org. 3600 IN SPF v=spf1 a include:_spf.google.com ~all
+newtownkindness.org. 3600 IN TXT v=spf1 a include:_spf.google.com ~all
+docs.newtownkindness.org. 3600 IN CNAME ghs.googlehosted.com.
+calendar.newtownkindness.org. 3600 IN CNAME ghs.googlehosted.com.
+sites.newtownkindness.org. 3600 IN CNAME ghs.googlehosted.com.
+_xmpp-server._tcp.newtownkindness.org. 3600 IN SRV 20 0 5269 xmpp-server1.l.google.com.
+_xmpp-server._tcp.newtownkindness.org. 3600 IN SRV 20 0 5269 xmpp-server2.l.google.com.
+_xmpp-server._tcp.newtownkindness.org. 3600 IN SRV 20 0 5269 xmpp-server3.l.google.com.
+_xmpp-server._tcp.newtownkindness.org. 3600 IN SRV 20 0 5269 xmpp-server4.l.google.com.
+_jabber._tcp.newtownkindness.org. 3600 IN SRV 5 0 5269 xmpp-server.l.google.com.
+_jabber._tcp.newtownkindness.org. 3600 IN SRV 20 0 5269 xmpp-server1.l.google.com.
+_jabber._tcp.newtownkindness.org. 3600 IN SRV 20 0 5269 xmpp-server2.l.google.com.
+_jabber._tcp.newtownkindness.org. 3600 IN SRV 20 0 5269 xmpp-server3.l.google.com.
+_jabber._tcp.newtownkindness.org. 3600 IN SRV 20 0 5269 xmpp-server4.l.google.com.
+_xmpp-server._tcp.newtownkindness.org. 3600 IN SRV 5 0 5269 xmpp-server.l.google.com.
+google._domainkey.newtownkindness.org. 3600 IN TXT v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnJAi2I3PVJzwXbxb7YukTkb+NXle13gBPeaffNK7jR7OrUDCI0t75SVQtSPVzc7Hkx1iPzfGC/CyWFik6JQmR5v7e3ZEGOF+U1div2BWpTPG5a385+pa3zQvj4DCJT5nhPaQE6VkLoAtdGymUhYhEazgcQjBDlvId4bwDjnyLpwIDAQAB
+beta.newtownkindness.org. 3600 IN A 173.254.28.22
